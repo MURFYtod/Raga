@@ -1,6 +1,6 @@
 # Core dependencies
 streamlit==1.29.0
-pandas==2.1.4
+pandas==2.1.2             # compatible wheel for Python 3.11
 openpyxl==3.1.2
 pydantic==2.5.0
 python-dotenv==1.0.0
@@ -13,8 +13,8 @@ requests==2.31.0
 # AI/ML dependencies
 langchain==0.1.0
 langgraph==0.0.20
-langchain-openai==0.0.5
-langchain-community
+langchain-openai==0.0.5   # will pull tiktoken 0.4.x compatible with Python 3.11
+# langchain-community (skip for now if deployment fails)
 
 # Communication services
 twilio==8.10.0
@@ -25,3 +25,8 @@ flask==3.0.0
 
 # Scheduling and automation
 schedule==1.2.0
+
+# pip & build tools
+pip>=25.3
+setuptools>=68.0
+wheel>=0.40
