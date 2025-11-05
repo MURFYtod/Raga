@@ -12,7 +12,7 @@ requests==2.31.0
 # LangChain + OpenAI
 langchain==0.1.0
 langchain-openai==0.0.5
-tiktoken==0.5.1
+tiktoken==0.5.2
 
 # Communication
 twilio==8.10.0
