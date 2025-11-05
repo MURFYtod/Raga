@@ -1,32 +1,20 @@
-# Core dependencies
 streamlit==1.29.0
-pandas==2.1.2             # compatible wheel for Python 3.11
-openpyxl==3.1.2
+pandas==2.1.1
+numpy<2.0.0
+python-dotenv
 pydantic==2.5.0
-python-dotenv==1.0.0
-email-validator==2.1.0
+requests==2.31.0
 phonenumbers==8.13.25
 python-dateutil==2.8.2
 faker==20.1.0
-requests==2.31.0
 
-# AI/ML dependencies
+# LangChain + OpenAI Compatible stack
 langchain==0.1.0
-langgraph==0.0.20
-langchain-openai==0.0.5   # will pull tiktoken 0.4.x compatible with Python 3.11
-# langchain-community (skip for now if deployment fails)
+langchain-openai==0.0.5
+tiktoken==0.4.0
 
-# Communication services
-twilio==8.10.0
-httpx==0.25.2
-
-# Web framework (for webhook backend)
+# Web & util
+openpyxl==3.1.2
 flask==3.0.0
-
-# Scheduling and automation
 schedule==1.2.0
-
-# pip & build tools
-pip>=25.3
-setuptools>=68.0
-wheel>=0.40
+httpx==0.25.2
