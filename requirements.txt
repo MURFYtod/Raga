@@ -1,0 +1,27 @@
+# Core dependencies
+streamlit==1.29.0
+pandas==2.1.4
+openpyxl==3.1.2
+pydantic==2.5.0
+python-dotenv==1.0.0
+email-validator==2.1.0
+phonenumbers==8.13.25
+python-dateutil==2.8.2
+faker==20.1.0
+requests==2.31.0
+
+# AI/ML dependencies
+langchain==0.1.0
+langgraph==0.0.20
+langchain-openai==0.0.5
+langchain-community
+
+# Communication services
+twilio==8.10.0
+httpx==0.25.2
+
+# Web framework (for webhook backend)
+flask==3.0.0
+
+# Scheduling and automation
+schedule==1.2.0
